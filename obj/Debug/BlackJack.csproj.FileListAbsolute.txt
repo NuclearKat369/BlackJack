@@ -1,0 +1,27 @@
+C:\Users\User\source\repos\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\User\source\repos\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\User\source\repos\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\User\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+C:\Users\User\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.Form1.resources
+C:\Users\User\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\User\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\User\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\User\source\repos\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+E:\repos\BlackJack\BlackJack\bin\Debug\BlackJack.exe.config
+E:\repos\BlackJack\BlackJack\bin\Debug\BlackJack.exe
+E:\repos\BlackJack\BlackJack\bin\Debug\BlackJack.pdb
+E:\repos\BlackJack\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+E:\repos\BlackJack\BlackJack\obj\Debug\BlackJack.Form1.resources
+E:\repos\BlackJack\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+E:\repos\BlackJack\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+E:\repos\BlackJack\BlackJack\obj\Debug\BlackJack.exe
+E:\repos\BlackJack\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\User\Documents\BlackJack — копия\BlackJack\bin\Debug\BlackJack.exe.config
+C:\Users\User\Documents\BlackJack — копия\BlackJack\bin\Debug\BlackJack.exe
+C:\Users\User\Documents\BlackJack — копия\BlackJack\bin\Debug\BlackJack.pdb
+C:\Users\User\Documents\BlackJack — копия\BlackJack\obj\Debug\BlackJack.csprojAssemblyReference.cache
+C:\Users\User\Documents\BlackJack — копия\BlackJack\obj\Debug\BlackJack.Properties.Resources.resources
+C:\Users\User\Documents\BlackJack — копия\BlackJack\obj\Debug\BlackJack.csproj.GenerateResource.cache
+C:\Users\User\Documents\BlackJack — копия\BlackJack\obj\Debug\BlackJack.exe
+C:\Users\User\Documents\BlackJack — копия\BlackJack\obj\Debug\BlackJack.pdb
+C:\Users\User\Documents\BlackJack — копия\BlackJack\obj\Debug\BlackJack.BlackJack.resources

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AF9BBE2C-AB55-41B5-AE1D-264C0B7FFA54}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BlackJack</RootNamespace>
+    <AssemblyName>BlackJack</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5-7GkcMi6co.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\102.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\103.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\104.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\105.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\106.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\107.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\108.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\109.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\110.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\112.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\113.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\201.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\202.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\203.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\204.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\205.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\206.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\207.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\208.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\209.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\210.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\211.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\212.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\213.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\301.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\302.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\303.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\304.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\305.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\306.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\307.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\308.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\309.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\310.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\311.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\312.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\313.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\402.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\403.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\404.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\405.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\406.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\407.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\408.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\409.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\410.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\412.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\413.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VICTORY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DEFEAT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GameOver.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
